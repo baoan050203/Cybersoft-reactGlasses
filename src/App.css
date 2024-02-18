@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.mainModel {
+  position : relative;
+}
+.tryGlasses {
+  position : absolute;
+  width : 100%;
+  top : 26%;
+  left : 25%;
+  /* transform: translate(-50%,-50%); */
+}
+.tryGlasses img {
+  width : 50%;
+  height : 50px;
+}
+.container-fluid {
+  background-image : url(../public/glassesImage/background.jpg);
+}
